@@ -1,0 +1,76 @@
+portfolio-craft/
+├── public/
+│   └── projects/
+│       ├── fashion-store.svg
+│       ├── medical-hub.svg
+│       ├── organic-cover.svg
+│       ├── pharmaguide-brand.svg
+│       ├── restaurant-system.svg
+│       └── social-campaign.svg
+├── src/
+│   ├── assets/images/mustafa-profile.jpg
+│   ├── components/
+│   │   ├── builder/
+│   │   │   ├── AboutPanel.jsx
+│   │   │   ├── BuilderSidebar.jsx
+│   │   │   ├── BuilderTopbar.jsx
+│   │   │   ├── CertificatesPanel.jsx
+│   │   │   ├── DesignPanel.jsx
+│   │   │   ├── ExperiencePanel.jsx
+│   │   │   ├── LivePreview.jsx
+│   │   │   ├── PersonalPanel.jsx
+│   │   │   ├── PreviewToolbar.jsx
+│   │   │   ├── ProjectsPanel.jsx
+│   │   │   ├── PublishPanel.jsx
+│   │   │   ├── SectionsPanel.jsx
+│   │   │   └── SkillsPanel.jsx
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Field.jsx
+│   │   │   ├── Logo.jsx
+│   │   │   ├── PanelTitle.jsx
+│   │   │   └── SectionHeading.jsx
+│   │   ├── landing/
+│   │   │   ├── FeatureGrid.jsx
+│   │   │   ├── LandingCta.jsx
+│   │   │   ├── LandingHero.jsx
+│   │   │   └── TemplateShowcase.jsx
+│   │   ├── layout/
+│   │   │   ├── MainFooter.jsx
+│   │   │   ├── MainNavbar.jsx
+│   │   │   └── PageShell.jsx
+│   │   └── portfolio/
+│   │       ├── PortfolioFooter.jsx
+│   │       ├── PortfolioNav.jsx
+│   │       ├── PortfolioRenderer.jsx
+│   │       └── sections/
+│   │           ├── AboutSection.jsx
+│   │           ├── CertificatesSection.jsx
+│   │           ├── ContactSection.jsx
+│   │           ├── ExperienceSection.jsx
+│   │           ├── FrontendProjectsSection.jsx
+│   │           ├── GraphicProjectsSection.jsx
+│   │           ├── HeroSection.jsx
+│   │           └── SkillsSection.jsx
+│   ├── context/PortfolioContext.jsx
+│   ├── data/defaultPortfolio.js
+│   ├── pages/
+│   │   ├── Builder.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Landing.jsx
+│   │   ├── NotFound.jsx
+│   │   └── PublicPortfolio.jsx
+│   ├── utils/
+│   │   ├── exportPdf.js
+│   │   ├── slugify.js
+│   │   └── storage.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#7c2d12"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fb923c"/><stop offset="1" stop-color="#facc15"/></linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <circle cx="1030" cy="90" r="220" fill="#f97316" opacity=".18"/>
+  <rect x="80" y="80" width="1040" height="590" rx="34" fill="#09090b" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="80" y="80" width="1040" height="72" rx="34" fill="#18181b"/>
+  <circle cx="118" cy="116" r="9" fill="#fb7185"/><circle cx="147" cy="116" r="9" fill="#facc15"/><circle cx="176" cy="116" r="9" fill="#4ade80"/>
+  <text x="125" y="225" font-family="Arial" font-size="34" font-weight="700" fill="#fff">Fresh food. Smooth ordering.</text>
+  <text x="125" y="266" font-family="Arial" font-size="18" fill="#a1a1aa">Restaurant ordering dashboard with live order tracking</text>
+  <rect x="125" y="310" width="210" height="56" rx="18" fill="url(#b)"/><text x="171" y="346" font-family="Arial" font-size="18" font-weight="700" fill="#111827">Browse menu</text>
+  <rect x="690" y="200" width="340" height="390" rx="28" fill="#18181b" stroke="#ffffff" stroke-opacity=".1"/>
+  <ellipse cx="860" cy="365" rx="125" ry="95" fill="#f59e0b" opacity=".9"/>
+  <ellipse cx="860" cy="334" rx="105" ry="36" fill="#fde68a"/>
+  <rect x="770" y="353" width="180" height="26" rx="13" fill="#7c2d12"/>
+  <rect x="785" y="382" width="150" height="18" rx="9" fill="#22c55e"/>
+  <ellipse cx="860" cy="425" rx="104" ry="35" fill="#fbbf24"/>
+  <rect x="750" y="500" width="220" height="46" rx="16" fill="#27272a"/>
+  <text x="792" y="530" font-family="Arial" font-size="17" fill="#fff">Track your order</text>
+</svg>
