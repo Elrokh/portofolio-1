@@ -1,4 +1,5 @@
 import { ArrowUpRight, Palette } from "lucide-react";
+import { assetUrl } from "../../../utils/assetUrl";
 
 export default function GraphicProjectsSection({ portfolio }) {
   return (
@@ -27,7 +28,7 @@ export default function GraphicProjectsSection({ portfolio }) {
               className={`group portfolio-graphic-card ${index === 1 ? "md:translate-y-8" : ""}`}
             >
               <div className="relative aspect-[4/3] overflow-hidden">
-                <img src={project.image} alt={project.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                <img src={assetUrl(project.image)} alt={project.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80" />
                 <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between gap-3 text-white">
                   <span className="rounded-full bg-slate-950/[0.55] px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.14em] backdrop-blur-xl">{project.category}</span>
