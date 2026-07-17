@@ -255,7 +255,7 @@ export default function Dashboard() {
                     onClick={quickExport}
                     className="dashboard-action"
                   >
-                    <span className="inline-flex items-center gap-3">
+                    <span className="  inline-flex items-center gap-3">
                       <FileDown className="h-4 w-4 text-cyan-300" />
                       Export overview
                     </span>
