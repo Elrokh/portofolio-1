@@ -1,5 +1,5 @@
 import { ArrowUpRight, Code2, Github } from "lucide-react";
-import { assetUrl } from "../../../utils/assetUrl";
+import ProjectImage from "../ProjectImage";
 
 export default function FrontendProjectsSection({ portfolio }) {
   return (
@@ -22,7 +22,7 @@ export default function FrontendProjectsSection({ portfolio }) {
           {portfolio.frontendProjects.map((project, index) => (
             <article key={project.id} className={`group portfolio-project-card ${index === 0 ? "lg:col-span-2 lg:grid lg:grid-cols-[1.15fr_.85fr]" : ""}`}>
               <div className={`portfolio-project-image ${index === 0 ? "lg:min-h-[440px]" : ""}`}>
-                <img src={assetUrl(project.image)} alt={project.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.035]" />
+                <ProjectImage source={project.image} alt={project.title} className="transition duration-700 group-hover:scale-[1.035]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
                 <span className="absolute left-5 top-5 rounded-full border border-white/[0.15] bg-slate-950/60 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-white backdrop-blur-xl">
                   {project.category}
